@@ -7,17 +7,17 @@ Material retrieved from [Udacity.com](https://classroom.udacity.com/courses/ud21
 Each C++ program consists of two parts: the preprocessor directives and the main function. 
 
 
- #include <iostream>
+    #include <iostream>
 
-  int main() 
- {
-      std::cout << "Hello world, I am ready for C++";
-      return 0;
-  }
+    int main() 
+    {
+        std::cout << "Hello world, I am ready for C++";
+        return 0;
+    }
 
 The first line we encounter has a hash at the start of the line. Any line that has a hash sign at the start is a preprocessor directive.
 
- #include <iostream>
+    #include <iostream>
 
 After the hash sign we have the word include. There are several preprocessor directives available in C++, but include is the one we see and use the most often.
 
@@ -27,7 +27,7 @@ The final detail of this line …. The brackets..
 
 The brackets say “Look for this file in the directory where all the standard libraries are stored”. C++ also allows us to specify the library name using double quotes.
 
- #include "main.hpp"
+    #include "main.hpp"
 
 The double quotes say “look in the current directory, if the file is not there, then look in the directory where the standard libraries are stored”.
 
@@ -35,11 +35,11 @@ If we change the brackets to double quotes, for this case, the program still com
 
 The next section is the main section of the program. We will discuss this in more detail in the next concept.
 
- int main() 
- {
-      std::cout << "Hello world, I am ready for C++";
-      return 0;
-  }
+    int main() 
+    {
+        std::cout << "Hello world, I am ready for C++";
+        return 0;
+    }
 
 ## How to use comment in C++:
 - How code is done not why it is done.
