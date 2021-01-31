@@ -76,3 +76,17 @@ int main()
     //get the user response and assign it to the year<- this line is a comment
     std::cin >> year;
     ...
+
+## C++ Style Guide
+
+
+Style Guide
+As with all programming languages, there are many different ways to style the code we write. For this course, we are not using a standard style. We are trying to remain consistent throughout the course, while making the codes as readable as possible.
+
+There are a number of style guides available, the best one is the one used by the people who are paying you.
+
+A straightforward style guide is:
+               [Modern C++ Coding Guidelines](https://github.com/Microsoft/AirSim/blob/master/docs/coding_guidelines.md)
+
+For a more detailed guideline:
+               [Google C++ Style Guideline](https://google.github.io/styleguide/cppguide.html)
