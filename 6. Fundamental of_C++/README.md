@@ -77,10 +77,10 @@ int main()
     std::cin >> year;
     ...
 
-## C++ Style Guide
+## Progamming
 
+### C++ Style Guide
 
-Style Guide
 As with all programming languages, there are many different ways to style the code we write. For this course, we are not using a standard style. We are trying to remain consistent throughout the course, while making the codes as readable as possible.
 
 There are a number of style guides available, the best one is the one used by the people who are paying you.
@@ -90,3 +90,46 @@ A straightforward style guide is:
 
 For a more detailed guideline:
                [Google C++ Style Guideline](https://google.github.io/styleguide/cppguide.html)
+
+### The g++ compiler:
+
+
+    g++  main.cpp -o main.out
+
+G++ for the C++ compiler. The file name is main.cpp. -o is for the name of the output. Main.out is the name of the output.
+
+To run the output file, main.out.
+
+We run:
+
+    ./main.out
+
+### Using namespace std
+
+    using namespace std;
+    int main()
+    {
+    }
+This tells the compiler to assume we are using the standard library, so we don’t have to write std::
+
+### sizeof
+For this programming assignment, you will be printing the size of different variable types. As with other programming languages, the size a variable is allocated in memory is dependent upon its type. To determine how many bytes each variable type uses, C++ provides the function sizeof(variableType).
+
+You will use the command :
+
+    sizeof(variable type) ie: sizeof(int)
+When printing out the variable types, you may want to print them out, one per line.
+To do this, add "\n" or "endl" to the end of the text to be printed.
+For example:
+This is the new line character.
+
+    cout<<"int size = "<<sizeof(int)<<"\n";
+A second option is:
+"endl"
+
+    cout<<"int size = "<<sizeof(int)<<endl;
+In many instances endl and "\n" will perform the same function. There are cases where they will be different.
+You can read a quick discussion about their differences here:
+newline and endline differences
+
+Go here to get more information about [sizeof](https://www.tutorialspoint.com/cplusplus/cpp_sizeof_operator.htm)
