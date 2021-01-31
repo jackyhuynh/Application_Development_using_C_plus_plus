@@ -42,7 +42,7 @@ The next section is the main section of the program. We will discuss this in mor
     }
 
 ## How to use comment in C++:
-- How code is done not why it is done.
+- Comment is used to show how code is done not why it is done.
 
  Comments can be added in two ways:
 As a comment block
