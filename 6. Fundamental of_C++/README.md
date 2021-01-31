@@ -133,3 +133,100 @@ You can read a quick discussion about their differences here:
 newline and endline differences
 
 Go here to get more information about [sizeof](https://www.tutorialspoint.com/cplusplus/cpp_sizeof_operator.htm)
+
+
+### Define Constants
+In C++ we can define a variable as a constant. Meaning, its value does not change for the life of the program.
+
+We use the keyword 'const' to define a constant.
+
+ For example: 
+           const int weightGoal = 100;
+
+### enumerated constants (enum)
+C++ also allows for enumerated constants. This means the programmer can create a new variable type and then assign a finite number of values to it. Here is the form of the enum keyword:
+
+    enum type_name {
+    value1,
+    value2,
+    value3,
+    .
+    .
+    } object_names;
+
+For example:
+
+    enum MONTH {Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec};
+In this example the enum variable MONTH has twelve possible values. These 12 values translate into 12 integer values.
+
+    Jan = 0
+    Feb = 1
+    etc.
+
+### iomanip()
+
+To format data we can use escape sequences. These do not require any additional libraries.
+
+The C++ escape sequences are pretty similar to other languages. The most common ones are: \n - newline \t - tab
+
+We can also format the output by using the iomanip library.
+
+Include it as #include .
+
+Once it is included, you can format output using the iomanip library. For example, we can set the width of an output using the setw command.
+
+    #include <iomanip>
+
+    std::cout<<"\n\nThe text without any formating\n";
+    std::cout<<"Ints"<<"Floats"<<"Doubles"<< "\n";
+    std::cout<<"\nThe text with setw(15)\n";
+    std::cout<<"Ints"<<std::setw(15)<<"Floats"<<std::setw(15)<<"Doubles"<<"\n";
+    std::cout<<"\n\nThe text with tabs\n";
+    std::cout<<"Ints\t"<<"Floats\t"<<"Doubles"<< "\n";
+
+Output will be:
+
+    The text without any formating
+    IntsFloatsDoubles
+
+    The text with setw(15)
+    Ints         Floats        Doubles
+
+
+    The text with tabs
+    Ints    Floats    Doubles
+
+### output stream (fstream)
+
+s with other programming languages, we can read and write files.
+
+File IO Steps:
+
+    - Include the <fstream> library 
+    - Create a stream (input, output, both)
+        - ofstream myfile; (for writing to a file)
+        - ifstream myfile; (for reading a file)
+        - fstream myfile; (for reading and writing a file)
+    - Open the file  myfile.open(“filename”);
+    - Write or read the file
+    - Close the file myfile.close();
+In the next quiz you are going to see the output stream and the input stream in action. Then I want you to play with this program by adding text to the input.txt file and then changing the ifstream and ofstream commands to fstream . Make sure that the text you write is read by the program.
+
+### Header files
+
+Traditionally, these files are called header files and they have an .hpp extension. Although any extension will work.
+
+- Header files contain information about how to do a task.
+- The main program contains information about what to do.
+
+### String Input
+
+So, we now know that std::cin will not retrieve strings that have a space in them. It will see the space as the end of the input. We will obviously need a method to enter strings.
+
+C++ has a function called getline. You can find detailed information at the link posted with this video.
+
+The basic form of getline is:
+
+getline: it will retrieve characters from the std::cin source and stores them in the variable called variableName. It will retrieve all characters until the newline or “\n” is detected.
+
+The programmer can also specify a different delimiter if the newline character is not desired. The details are in the provided link.
