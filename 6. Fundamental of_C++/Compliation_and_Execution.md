@@ -47,3 +47,34 @@ On my Mac machine I can open a terminal window by going to the menu where all my
 Here is a screenshot of the terminal icon on my computer.
 
 ![img](https://github.com/jackyhuynh/Introduction_to_Robotic_Design_and_Development/blob/main/6.%20Fundamental%20of_C%2B%2B/images/screen-shot-2017-03-23-at-10.05.02-am.png)
+
+Now, let's find out if we have C++ on my computer:
+
+Open a terminal window - you'll notice when you open your window it may have a black background with white text. I changed mine to have a white background with black text to make it easier for you to see.
+
+![img](https://github.com/jackyhuynh/Introduction_to_Robotic_Design_and_Development/blob/main/6.%20Fundamental%20of_C%2B%2B/images/screen-shot-2017-03-23-at-10.19.13-am.png
+
+Notice the prompt on my terminal.
+It is:
+
+    catherinegamboa ~ $
+
+The '$' is the standard shell prompt for Unix/Linux. Yours may be different.
+Check out Shell Prompt Explained for more information.
+You can also see my name catherinegamboa ~. This is valuable information. It tells me which directory I'm in. My terminal starts in the top level directory of my computer.
+
+#### Step 2:
+Make sure you have the C++ libraries loaded on your machine.
+
+Let's find out if we have C++ on our computer.
+At the terminal prompt, type in
+```
+g++ -help
+```
+For some systems you may have type:
+```
+G++ --help
+```
+Type g++ -help at the prompt. When I enter this command I get a long list of helpful information about the C++ compiler. If text like this was printed, you have g++ on your computer and you can access it. If you got something saying "no such command" you either don't have C++ installed on your computer or you have it but it is not properly configured in your pathname.
+
+You will have to figure out which problem you have and fix it. troubleshooting this problem is beyond the scope of this course)
