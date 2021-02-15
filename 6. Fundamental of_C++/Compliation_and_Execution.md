@@ -79,3 +79,50 @@ Type g++ -help at the prompt. When I enter this command I get a long list of hel
 
 You will have to figure out which problem you have and fix it. troubleshooting this problem is beyond the scope of this course
 
+We're in a Unix environment now, so we'll need to know a few Unix commands.
+
+- Unix Command
+
+    - pwd: print working directory
+    - cd: change directory
+    - ls: list the contents of the directory
+    **If you are using a Windows machine, open a "Select Command Prompt' window.
+    - HELP: You will see a list of commands. They are different than the Unix commands.
+    - CHDIR : change directory
+    - DIR: print the files and folders in the working directory
+
+#### Step 3:
+We have completed the steps necessary to compile:
+
+    - Open a terminal window
+    - Navigate to the correct directory
+    - Make sure you file(s) are in the directory
+
+I am going to compile a program called:
+```
+assignment2.cpp
+```
+The command to compile this file is:
+```
+g++ filename.cpp -o nameOfExecutableCode
+
+For example:
+        g++ assignment2.cpp -o a2
+```
+- g++ is the command to compile
+- assignment2.cpp is the file to be compiled
+- -o is the command that says you want name of the executable file
+- a2 is the name I want to give the executable file.
+
+#### Step 4:
+In summary to compile in a terminal:
+
+    - Open a terminal window
+    - change the working directory to the directory of the program
+    - Make sure names of folders and files do not have spaces in them
+    - To compile the program: g++ filename.cpp -o executableName
+    - To execute the program: ./executableName
+
+Common mistakes when executing in the terminal:
+    - Make sure there are no spaces in filenames
+    - Make sure all the files you need are in the working directory (including header files), use 'ls' to check
