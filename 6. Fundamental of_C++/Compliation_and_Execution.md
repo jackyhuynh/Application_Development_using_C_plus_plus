@@ -14,6 +14,8 @@ As an aside, linking is not required for all programs. Most operating systems al
 
 There are pros and cons of dynamic linking. On the one hand, dynamically linked libraries are not linked within binaries, which keeps the overall file size down. However, if the library changes at any point, your code will automatically link to the new version. Like any changing dependency, difficult to fix and surprising bugs sometimes arise when versions change.
 
+![img](https://github.com/jackyhuynh/Introduction_to_Robotic_Design_and_Development/blob/main/6.%20Fundamental%20of_C%2B%2B/images/Linking.PNG)
+
 ## Compiling to Executable with a Compiler
 Technically, you only need a compiler to compile C++ source code to a binary. A compiler does the dirty work of writing machine code for a given processor architecture. There are many compilers available. For this course, we picked the open source GNU Compiler Collection, more commonly called G++ or GCC. gcc is a command line tool.
 
