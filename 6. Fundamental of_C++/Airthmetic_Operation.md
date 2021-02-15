@@ -42,3 +42,45 @@ int main()
     return 0;
 }
 ```
+## Implicit conversions
+
+C++ is a language that requires variable types to be known at compile time.
+
+But, C++ does allow some implicit conversions, for example an integer can be assigned to a float or an integer can be treated as a char.
+
+## Prefix vs. Postfix
+
+In C++, as in many languages, there are postfix and prefix operators.
+The form for each is:
+
+Incrementing
+
+prefix: ++a
+postfix: a++
+Decrementing
+
+prefix: --a
+postfix: a--
+The difference between prefix and postfix is subtle, but crucial.
+
+Prefix operators increment the value of the variable, then return the reference to the variable.
+
+Postfix operators create a copy of the variable and increments the value of the variable. Then it returns a copy from BEFORE the increment.
+
+As you can read in the Increment and Decrement documentation
+
+increment and decrement operators can result in violations of sequencing.
+
+## Assignment Operator
+
+As with other programming languages, C++ allows assignment operators.
+The table below shows the most often used assignment operators supported by C++.
+
+## Control Flow
+
+C++ has several control flow options.
+
+- if-else statements
+- for loops
+- while loops
+- switch statements
