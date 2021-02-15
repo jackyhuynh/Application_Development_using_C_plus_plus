@@ -35,3 +35,11 @@ This is the easiest, most direct method.
     - Step 2: Make sure you have the C++ libraries loaded on your machine.
     - Step 3: Go to the directory where you saved your program.
     - Step 4: Compile the program.
+
+#### Step 1:
+
+Open a terminal window.
+
+On my Mac machine I can open a terminal window by going to the menu where all my applications are stored and selecting the terminal application.
+
+Here is a screenshot of the terminal icon on my computer.
