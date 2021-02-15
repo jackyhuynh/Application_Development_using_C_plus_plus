@@ -16,3 +16,4 @@ Speed, Reliable, Security
 - Working very efficientcy with the hardware.
 - Not deal with lowlevel languages all the time and still be efficient.
 
+![img](https://github.com/jackyhuynh/Introduction_to_Robotic_Design_and_Development/blob/main/6.%20Fundamental%20of_C%2B%2B/images/Linking.PNG)
