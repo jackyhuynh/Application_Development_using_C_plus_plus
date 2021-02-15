@@ -77,4 +77,5 @@ G++ --help
 ```
 Type g++ -help at the prompt. When I enter this command I get a long list of helpful information about the C++ compiler. If text like this was printed, you have g++ on your computer and you can access it. If you got something saying "no such command" you either don't have C++ installed on your computer or you have it but it is not properly configured in your pathname.
 
-You will have to figure out which problem you have and fix it. troubleshooting this problem is beyond the scope of this course)
+You will have to figure out which problem you have and fix it. troubleshooting this problem is beyond the scope of this course
+
