@@ -126,3 +126,4 @@ In summary to compile in a terminal:
 Common mistakes when executing in the terminal:
     - Make sure there are no spaces in filenames
     - Make sure all the files you need are in the working directory (including header files), use 'ls' to check
+
