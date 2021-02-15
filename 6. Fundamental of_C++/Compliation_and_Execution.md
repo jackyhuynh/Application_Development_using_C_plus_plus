@@ -43,3 +43,5 @@ Open a terminal window.
 On my Mac machine I can open a terminal window by going to the menu where all my applications are stored and selecting the terminal application.
 
 Here is a screenshot of the terminal icon on my computer.
+
+![img](https://github.com/jackyhuynh/Introduction_to_Robotic_Design_and_Development/blob/main/6.%20Fundamental%20of_C%2B%2B/images/screen-shot-2017-03-23-at-10.05.02-am.png)
