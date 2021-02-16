@@ -1,6 +1,7 @@
 # Airthmetic Operation
 
 ## Introduction:
+
 Arithmetic operations in C++ are similar to other languages. We’ll have a quick discussion about them here and then you can practice programming (+, -, *, /, %)
 
 ```
@@ -42,6 +43,7 @@ int main()
     return 0;
 }
 ```
+
 ## Implicit conversions
 
 C++ is a language that requires variable types to be known at compile time.
