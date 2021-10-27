@@ -1,6 +1,6 @@
 # Robotic_Design_and_Development
  
-## Why C++
+## Why C++:
 Speed, Reliable, Security 
 
 ## Why use C++ for robotic development:
